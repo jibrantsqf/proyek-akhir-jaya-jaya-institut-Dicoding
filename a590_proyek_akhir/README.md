@@ -31,7 +31,7 @@ Visualisasi performa akademik dan faktor risiko mahasiswa disajikan dalam Busine
 
 Berikut adalah tangkapan layar dari dashboard yang telah dibuat:
 
-![Business Dashboard](dashboard.png)
+![Business Dashboard](jibranTsaqif_dicoding_dashboard.png)
 
 ## Menjalankan Sistem Machine Learning
 Prototype sistem Machine Learning dibangun menggunakan Streamlit. Untuk menjalankannya secara lokal:

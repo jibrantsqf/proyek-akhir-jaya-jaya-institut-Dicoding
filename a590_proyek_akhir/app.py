@@ -1,11 +1,13 @@
+import os
 import streamlit as st
 import pandas as pd
 import joblib
 
-# Load models
-model = joblib.load('model/random_forest_model.joblib')
-scaler = joblib.load('model/scaler.joblib')
-label_encoder = joblib.load('model/label_encoder.joblib')
+# Load models using absolute path relative to this script
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model = joblib.load(os.path.join(BASE_DIR, 'model', 'random_forest_model.joblib'))
+scaler = joblib.load(os.path.join(BASE_DIR, 'model', 'scaler.joblib'))
+label_encoder = joblib.load(os.path.join(BASE_DIR, 'model', 'label_encoder.joblib'))
 
 st.set_page_config(page_title="Prediksi Status Mahasiswa", layout="wide")
 
