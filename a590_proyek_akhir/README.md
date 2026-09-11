@@ -41,7 +41,7 @@ streamlit run app.py
 ```
 Aplikasi akan otomatis terbuka di browser Anda (biasanya di `http://localhost:8501`). Anda dapat memasukkan data profil mahasiswa dan melihat prediksi apakah mahasiswa tersebut akan *Dropout*, *Enrolled*, atau *Graduate*.
 
-Tautan Streamlit Community Cloud: (Tolong masukkan link aplikasi Streamlit Anda jika sudah di-deploy)
+Tautan Streamlit Community Cloud: [https://dashboard-proyek-akhir-jaya-jaya-isntitut-dcd.streamlit.app/](https://dashboard-proyek-akhir-jaya-jaya-isntitut-dcd.streamlit.app/)
 
 ## Conclusion
 Dari hasil Exploratory Data Analysis dan pemodelan Machine Learning:
@@ -51,7 +51,7 @@ Dari hasil Exploratory Data Analysis dan pemodelan Machine Learning:
 - Model *Random Forest* yang dibangun mampu memprediksi status mahasiswa dengan akurasi di atas 75%.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+Berikut rekomendasi *action items* yang harus dilakukan institusi guna menyelesaikan permasalahan dropout mahasiswa:
 - **Sistem Peringatan Dini Akademik (Early Warning System)**: Gunakan model prediksi ini saat nilai ujian tengah semester 1 mulai keluar. Jika nilai sangat rendah, berikan konseling akademik secara intensif kepada mahasiswa yang berisiko.
 - **Bantuan Finansial / Fleksibilitas Pembayaran**: Karena tunggakan uang kuliah sangat berkorelasi dengan dropout, pertimbangkan untuk memberikan skema cicilan biaya kuliah yang lebih fleksibel kepada mahasiswa yang kesulitan secara finansial agar mereka tetap *Enrolled*.
 - **Peningkatan Program Beasiswa**: Mengingat penerima beasiswa memiliki tingkat kelulusan tinggi, penambahan kuota beasiswa bisa membantu menekan angka *dropout* di institusi.
